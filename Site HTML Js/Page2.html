@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Netflix: Se connecter</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/Netflix_mini.ico" />
+    </head>
+
+    <body>
+
+        <header>
+
+            <img class="petitN" src="images/Netflix_mini.png" alt="unPetitN"/>
+            
+            <div class="Inscription">
+
+                <p id="texteIndicatif">Voulez-vous vous inscrire?</p>
+                <a href="Page1.html" class="btHautDroite"> Inscription </a>
+
+            </div> 
+
+        </header>
+        
+        <div id="grande_image">
+           
+            <img class="Logo" src="images/Netflix.png" alt="Netflix">
+        </div> 
+
+        <div class="Connecte">
+            <form action="PageProfil.html" method="POST" id="connex">
+                <h1>Connectez-vous</h1>
+
+                <h2>E-mail</h2>
+
+                <input id="emailAddress" type="email" placeholder="default@exemple.com" size="25">
+
+                <h2>Mot de passe</h2>
+
+                <div class="password_container">
+                
+                    <input id="password" type="password" size="25" minlength="6" maxlength="30"><br>
+                    <input type="checkbox" onclick="showPassword()"> Montrer mot de passe
+                    
+                </div>
+                
+                <input type="submit" id="valider" value="Se connecter">
+            </form>
+            
+            <span style="color: red;" id="erreur"></span> 
+
+        </div>
+    </body>
+
+</html> 
+
+
+<script src="Page2java.js">
+</script>

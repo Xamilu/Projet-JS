@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+   
+    <head>
+        <meta charset="utf-8">
+        <title>Netflix: Nouveau Profil</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+            
+            <div class="Choisir_profil">
+
+                <form action="Accueil.html" id="Choisir_profil">
+
+                    <img class="netflix_profil" src="images/Netflix_mini.png" alt="unpetitN"/>
+                    
+                    <h2>Ajouter un profil</h2>
+                    <p>Ajouter un profil pour un nouvel utilisateur Netflix</p>
+
+                    <p for="userName">Nom de l'utilisateur</p>
+                    <div class="userName">
+                        <input id="user" type="text" size="25" minlength="6" maxlength="30"><br>
+                    </div>                
+                
+                    <div>
+                        <p>Parent</p>
+                        <input TYPE=CHECKBOX UNCHECKED name="Checkbox_parent" id="Checkbox_parent" type="CHECKBOX">
+                        <p>Enfant</p>
+                        <input TYPE=CHECKBOX UNCHECKED name="Checkbox_enfant" id="Checkbox_enfant" type="CHECKBOX">
+                    </div>
+
+                    <input type="submit" id="valider_profil" value="Valider">
+
+                </form>
+            </div>
+
+    </body>
+
+</html> 
+
+<script src="PageProfil.js">
+
+</script>
